@@ -6,8 +6,9 @@ module.exports = {
   plugins: [{
     resolve: 'gatsby-source-sanity',
     options: {
-      "projectId": "",
-      "dataset": ""
+      "projectId": "wsccgrx8",
+      "dataset": "production",
+      watchMode: true
     }
   }, "gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
