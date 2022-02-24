@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\basin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-icons
+
+PATH: 
+  C:\Users\basin\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\basin\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\basin\AppData\Local\Microsoft\WindowsApps;C:\Users\basin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\basin\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\basin\AppData\Local\Yarn\Cache\v6\npm-gatsby-source-sanity-7.3.2-785f9d12c26b2c991210b84e3eacd480784f0ee0-integrity\node_modules\gatsby-source-sanity\gatsby-node.js' -> 'C:\Users\basin\Documents\Programowanie\Projekty\gatsby-strapi-portfolio\gatsby-website\node_modules\gatsby-source-sanity\gatsby-node.js'
+
+npm manifest: 
+  {
+    "name": "gatsby-website",
+    "version": "1.0.0",
+    "private": true,
+    "description": "gatsby-website",
+    "author": "webseb00",
+    "keywords": [
+      "gatsby"
+    ],
+    "scripts": {
+      "develop": "gatsby develop",
+      "start": "gatsby develop",
+      "build": "gatsby build",
+      "serve": "gatsby serve",
+      "clean": "gatsby clean"
+    },
+    "dependencies": {
+      "gatsby": "^4.8.0",
+      "gatsby-plugin-image": "^2.8.0",
+      "gatsby-plugin-sass": "^5.8.0",
+      "gatsby-plugin-sharp": "^4.8.0",
+      "gatsby-plugin-sitemap": "^5.8.0",
+      "gatsby-source-filesystem": "^4.8.0",
+      "gatsby-source-sanity": "^7.3.2",
+      "gatsby-transformer-sharp": "^4.8.0",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "sass": "^1.49.8"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

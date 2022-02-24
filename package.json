@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "framer-motion": "^6.2.8",
     "gatsby": "^4.8.0",
     "gatsby-plugin-image": "^2.8.0",
     "gatsby-plugin-sass": "^5.8.0",
@@ -25,6 +26,7 @@
     "gatsby-transformer-sharp": "^4.8.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-icons": "^4.3.1",
     "sass": "^1.49.8"
   }
 }
