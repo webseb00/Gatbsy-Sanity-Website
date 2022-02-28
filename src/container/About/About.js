@@ -1,26 +1,26 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
-import { images } from '../../constants/index';
 import { useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
+import { AppWrap } from '../../wrapper/index';
 import './About.scss';
 
 const About = () => {
 
   const data = useStaticQuery(graphql`
-  query AboutsQuery {
-    allSanityAbouts {
-      nodes {
-        description
-        title
-        imgUrl {
-          asset {
-            gatsbyImageData
+    query AboutsQuery {
+      allSanityAbouts {
+        nodes {
+          description
+          title
+          imgUrl {
+            asset {
+              gatsbyImageData
+            }
           }
         }
       }
-    }
-  }  
+    }  
   `);
   
   const { nodes } = data.allSanityAbouts;
@@ -52,4 +52,4 @@ const About = () => {
   )
 }
 
-export default About;
+export default AppWrap(About, 'about');
