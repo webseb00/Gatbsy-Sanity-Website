@@ -81,7 +81,7 @@ const Work = () => {
               key={index}
             >
               <div className="app__work-img app__flex">
-                <GatsbyImage image={image} alt={item.name} />
+                <GatsbyImage image={image} alt="" />
                 <motion.div
                   whileHover={{ opacity: [0, 1] }}
                   transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}

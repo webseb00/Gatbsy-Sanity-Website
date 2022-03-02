@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 import { AppWrap } from '../../wrapper/index';
+import { MotionWrap } from '../../wrapper/index';
 import './About.scss';
 
 const About = () => {
@@ -52,4 +53,4 @@ const About = () => {
   )
 }
 
-export default AppWrap(About, 'about');
+export default AppWrap(MotionWrap(About, 'app__about'), 'about', 'app__whitebg');
