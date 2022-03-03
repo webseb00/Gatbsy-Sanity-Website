@@ -1,15 +1,19 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
       title: ``,
-    siteUrl: `https://www.yourdomain.tld`
+      siteUrl: `https://www.yourdomain.tld`
   },
   plugins: [{
     resolve: 'gatsby-source-sanity',
     options: {
-      "projectId": "wsccgrx8",
+      "projectId": process.env.GATSBY_SANITY_PROJECT_ID,
       "dataset": "production",
       watchMode: true,
-      'token': 'sk81aPTZm7Ex2mcB4Y6wJQcQvewvkwJAcdVKACgFyIc5tdP3nYUrwfcHPfA1P6qOvX44cCMHceyb0z9X7b2sUD5ksq9h4TiTKDkqSnbRuSp3bG6jNMz6Vg5mKnz2CiHRzbLQgq9hVl50d2OmXLa1ejLkbZ0wFbxm8qQGsB3nYl2ORewR6PAh'
+      'token': process.env.GATSBY_SANITY_TOKEN
     }
   }, "gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
