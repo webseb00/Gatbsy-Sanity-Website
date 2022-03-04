@@ -54,11 +54,11 @@ const Footer = () => {
       <h2 className="head-text">Take a coffee & chat with me!</h2>
       <div className="app__footer-cards">
         <div className="app__footer-card">
-          <StaticImage src="../../assets/email.png" alt="Email" />
+          <StaticImage src="../../assets/email.png" alt="Email" className="app__footer-card-img" />
           <a href="#" className="p-text">hello@email.com</a>
         </div>
         <div className="app__footer-card">
-          <StaticImage src="../../assets/mobile.png" alt="Phone" />
+          <StaticImage src="../../assets/mobile.png" alt="Phone" className="app__footer-card-img" />
           <a href="#" className="p-text">+00 333 222 111</a>
         </div>
       </div>

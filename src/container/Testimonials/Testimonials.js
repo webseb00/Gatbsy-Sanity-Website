@@ -50,7 +50,7 @@ const Testimonials = () => {
     <>
       <>
         <div className="app__testimonial-item app__flex">
-          <GatsbyImage image={image} alt={testimonials[currentIndex].name} />
+          <GatsbyImage image={image} alt={testimonials[currentIndex].name} className="app__testimonial-item-img" />
           <div className="app__testimonial-content">
             <p className="p-text">{testimonials[currentIndex].feedback}</p>
             <div>
